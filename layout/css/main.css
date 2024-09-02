@@ -290,7 +290,7 @@ img:hover {transition: background-color 0.5s ease; }
 
 
 /*..... FOOTER ......*/
-.footer {background: #70b642;border-top: solid 6px #548e2e;}
+.footer {background: #70b642;border-top: solid 6px #204ed3}
 .footer .emergency{ text-align:center; margin:70px 0 0 0;}
 .footer .emergency i{ color:#fff; display:block; font-size:65px; }
 .footer .emergency .text{ margin:25px 0 0 0; font-size:18px; font-family: 'Raleway', sans-serif; font-weight:800; color:#fff; display:block; text-transform: uppercase;}
@@ -481,7 +481,7 @@ img:hover {transition: background-color 0.5s ease; }
 
 /*..... SUB BANNER ......*/
 .sub-banner .banner-img{ width:100%; }
-.sub-banner .detail{ text-align: center; box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.32);  padding:24px 0 28px 0;}
+.sub-banner .detail{ text-align: center; box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.32);  padding:24px 0 28px 0; border-top: solid 6px #ed9095;}
 .sub-banner .detail ul{display: none;}
 .sub-banner .detail ul li{float: left;  background: url(../images/paging-arrow.png) no-repeat right 9px;  padding: 0 20px 0 0;  margin: 0 12px 0 0;}
 .sub-banner .detail ul li:last-child { background:none;}

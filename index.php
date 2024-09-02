@@ -37,20 +37,28 @@
       </li>
       <li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"  data-title="Intro Slide">
         <!-- MAIN IMAGE -->
-        <img src="<?php echo $img; ?>slides/4.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+        <img src="<?php echo $img; ?>slides/15.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
       </li>
       <li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"  data-title="Intro Slide">
         <!-- MAIN IMAGE -->
-        <img src="<?php echo $img; ?>slides/5.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+        <img src="<?php echo $img; ?>slides/16.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
       </li>
+      
+    
       <li data-transition="fade" data-slotamount="7" data-masterspeed="500" data-saveperformance="on"  data-title="Intro Slide">
         <!-- MAIN IMAGE -->
-        <img src="<?php echo $img; ?>slides/6.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+        <img src="<?php echo $img; ?>slides/17.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
       </li>
       <li data-transition="fade" data-slotamount="7" data-masterspeed="500"  data-saveperformance="on"  data-title="Intro Slide">
         <!-- MAIN IMAGE -->
         <img src="<?php echo $img; ?>slides/7.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
       </li>
+      <li data-transition="fade" data-slotamount="7" data-masterspeed="500"  data-saveperformance="on"  data-title="Intro Slide">
+        <!-- MAIN IMAGE -->
+        <img src="<?php echo $img; ?>slides/4.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+      </li>
+     
+      
     </ul>
     <div class="tp-bannertimer"></div>
   </div>

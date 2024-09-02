@@ -3,7 +3,9 @@
 
 <!--Start Banner-->
 <div class="sub-banner">
+<div id="banner-conatiner">
   <img class="banner-img" src="<?php echo $img; ?>sub-banner1.jpg" alt="">
+</div>
   <div class="detail">
     <div class="container">
       <div class="row">

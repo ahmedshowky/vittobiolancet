@@ -1,9 +1,22 @@
 <?php $pageTitle = 'Instruments'; ?>
-<?php include 'init.php'; ?>
+<?php include 'init.php';
+
+// Directory containing the banner images
+$bannerDir = $img . 'sub banners/';
+
+// Get all image files from the directory
+$images = array_filter(scandir($bannerDir), function($file) use ($bannerDir) {
+    // Filter out non-image files and hidden files
+    return in_array(pathinfo($file, PATHINFO_EXTENSION), ['jpg', 'jpeg', 'png', 'gif']) && !is_dir($bannerDir . $file);
+});
+
+// Select a random image from the available images
+$randomImage = $images ? $bannerDir . $images[array_rand($images)] : 'default-banner.jpg'; // Fallback to a default image if none found
+?>
 
 <!--Start Banner-->
 <div class="sub-banner">
-  <img class="banner-img" src="<?php echo $img; ?>sub-banner2.jpg" alt="">
+  <img class="banner-img" src="<?php echo $randomImage; ?>" alt="">
   <div class="detail">
     <div class="container">
       <div class="row">

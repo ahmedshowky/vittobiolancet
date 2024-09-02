@@ -12,6 +12,6 @@
 
 	//include the important files
 	include $func . 'functions.php';
-	include $tpl . 'header.php';
+	include $tpl . 'header2.php';
 
 ?>

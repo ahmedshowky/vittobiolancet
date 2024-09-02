@@ -68,7 +68,7 @@
                   <li><a href="about-us.php">About Us</a></li>
                   <li><a href="Products.php">Products</a></li>
                   <li class="parent">
-                    <a href="javascript:void(0)">Products</a>
+                    <a href="javascript:void(0)">Categories</a>
                     <ul class="submenu">
                       <li> <a href="feed-additives.php">Feed Additives</a> </li>
                       <li> <a href="disinfectant.php">Disinfectant</a> </li>
